@@ -46,7 +46,7 @@ Publishing the first version of the code to GitHub took three commands: `git add
 
 **Authenticating with a Personal Access Token**
 
-Once the code changed again, pushing asked for credentials, and typing in the GitHub account password failed. GitHub deprecated password authentication for HTTPS operations, so a Personal Access Token is required instead. I generated a classic token from GitHub's Developer Settings, scoped to `repo`, with a 7-day expiration, and used it in place of a password at the next push prompt.
+Pushing again required switching to token-based authentication, covered in Challenges & Fixes below.
 
 ![GitHub Personal Access Tokens (classic) page showing the generated token, scope, and expiration](images/day2/05-personal-access-token.png)
 
